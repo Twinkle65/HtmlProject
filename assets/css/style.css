@@ -1,0 +1,42 @@
+:root {
+        --theme-primary-color: #009ce9;
+        --theme-color-primary-text: #BEBEBE;
+        
+}
+
+*
+{
+    font-family: 'Raleway', Times, serif;
+}
+.navbar-brand 
+{
+    color: var(--theme-color-primary-text);
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 28px;
+}
+header
+{
+    padding: 10px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link
+{
+    color: var(--theme-color-primary-text);
+    font-weight: 600;
+    display: block;
+    padding: 20px;    
+}
+.navbar .navbar-nav .nav-item .nav-link:hover
+{
+    color: var(--theme-primary-color);
+}
+.navbar .navbar-nav .nav-item .nav-link:active
+{
+    color: var(--theme-primary-color);
+}
+
+
+
+
+
