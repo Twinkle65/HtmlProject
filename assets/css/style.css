@@ -1,10 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+:root {
+  --primary-color: #009ce9;
+  --text-color: #5a7681; 
+  --text-color--light: #848486; 
+
+}
 
 body,html{
     font-family: 'Raleway', sans-serif;
-    color: #b7bfc1;
+    color: var(--text-color) !important;
 }
+
+h3{
+    font-weight: 600;
+}
+p{
+    color: var(--text-color--light);
+}
+
+.btn-primary{
+    background-color: var(--primary-color);
+    padding: 0.5rem 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.03rem;
+}
+
 
 /*---Navigation bar Style---*/
 .navbar{
@@ -12,7 +33,7 @@ body,html{
     font-size: 0.9rem;
     background-color: #fff !important;
    
-    
+ 
 }
 .navbar .navbar-brand{
     color: #5a696c;
@@ -24,12 +45,23 @@ body,html{
     padding: 0.5rem;
 }
 .navbar-light .navbar-nav .nav-link{
-    color: #b7bfc1;
+    color: var(--text-color--light);
 }
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .nav-link:hover
 {
-    color: #009ce9;
+    color: var(--primary-color);
+}
+
+/*---Navigation bar Style---*/
+
+.landing{
+    padding-top:3.5rem;
+}
+.landing h1{
+    color: #343e3f;
+    font-weight: 700;
+   
 }
 
 

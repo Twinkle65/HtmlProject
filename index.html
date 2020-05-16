@@ -10,7 +10,7 @@
 	
 </head>
 
-<body data-spy="scroll" data-target="navbarResponsive">
+<body data-spy="scroll" data-target="#navbarResponsive">
 
 
 
@@ -19,11 +19,12 @@
 
 
   <!--Home section starts here-->
-      <div id="home">
+      <section id="home">
           
   <!--Header section starts here-->
   
     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light ">
+    
       <div class="container">
       <a class="navbar-brand" href="#">Jambeau</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
@@ -39,9 +40,9 @@
               About
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">About Us</a>
-              <a class="dropdown-item" href="#">Team</a>
-              <a class="dropdown-item" href="#">Testimonials</a>
+              <a class="dropdown-item" href="#about">About Us</a>
+              <a class="dropdown-item" href="#team">Team</a>
+              <a class="dropdown-item" href="#testimonials">Testimonials</a>
             </div>
           </li>
           <li class="nav-item">
@@ -51,7 +52,7 @@
             <a href="#pricing" class="nav-link">Pricing</a>
           </li>
           <li class="nav-item">
-            <a href="#Contact" class="nav-link"> Contact</a>
+            <a href="#contact" class="nav-link"> Contact</a>
           </li>
         </ul>
       </div>
@@ -61,33 +62,35 @@
     <!--Header section ends here-->
 
     <!--landing page section starts here-->
-    <div class="padding"></div>
-        <div class="landing container">
-            <div class="row ">
+          
+        <div class="landing container ">
+          <div class="pt-5">
+            <div class="row">
               <div class="col-md-6 my-auto">
-                <h1>We design life jackets for Pigs and kekadas and lichads</h1>
-                <h5>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h5>
+                <h1 class="mb-2">We design life jackets for Pigs and kekadas and lichads</h1>
+                <h5 class="mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h5>
                 <a class="btn btn-primary btn-lg" href="#">Get Started</a>
               </div>
               <div class="col-md-6">
                 <img src="/assets/img/home.png" width="100%" height="auto">
               </div>
             </div>
+          </div>
         </div>
+      
+    
 
-    </div>
-
-    <!--landing page section starts here-->
+    <!--landing page section ends here-->
 
 
-      </div>
+      </section>
   <!--Home section ends here-->
 
 
 
   <!--About section starts here-->
-
-      <div class="padding">
+      <section id="about" class="offset">
+      <div class="pt-5">
           <div class=" jumbotron container">
             <div class="row">
               <div class="col-md-6">
@@ -102,13 +105,14 @@
             </div>
           </div>
       </div>
+    </section>
   <!--About section ends here-->
 
 
 
   <!--Team section starts here-->
-  
-  <div class="padding">
+    <section id="team">
+  <div class="pt-5">
     <div class="container-fluid jumbotron">
       <div class="row text-center">
         <div class="col-12">
@@ -150,18 +154,19 @@
 
     </div>
   </div>
+</section>
   <!--Team section ends here-->
 
 
 
   
   <!--Testimonials section starts here-->
-      <div class="testimonials">
-
+      <div  id="testimonials" class="offset">
+        <div class="pt-5">
         <div class="container">
           <div class="row text-center">
             <div class="col-12">
-            <h3>Team</h3>
+            <h3>Testimonials</h3>
             <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetu</p>
           </div>
           </div>
@@ -201,7 +206,7 @@
       </div>
     </div>
 
-
+  </div>
         </div>
       </div>
     </div>
@@ -210,7 +215,8 @@
 
 
   <!--Services section starts here-->
-    <div class="services">
+    <div id="services" class="offset">
+      <div class="pt-5">
       <div class="container-fluid jumbotron">
         <div class="row text-center r">
           <div class="col-12">
@@ -270,7 +276,7 @@
           </div>
         </div>
 
-
+      </div>
       </div>      
     </div>
     </div>
@@ -280,7 +286,8 @@
 
 
   <!--Pricing section starts here-->
-  <div class="pricing">
+  <div id="pricing" class="offset">
+    <div class="pt-5">
     <div class="container-fluid jumbotron">
       <div class="row text-center r">
         <div class="col-12">
@@ -380,13 +387,14 @@
               </div>
             </div>
           </div>
-      
+        </div>
   <!--Pricing section ends here-->
 
 
 
   <!--Contact section starts here-->
-          <section class="contact">
+          <section id="contact" class="offset">
+            <div class="pt-5">
             <div class="container-fluid jumbotron">
               <div class="row text-center ">
                 <div class="col-12">
@@ -416,7 +424,7 @@
                     <span class="d-inline-block h6">Sydney New South Wales, Australia</span>
                     
                     <div id="map-container-google-2" class="z-depth-1-half map-container">
-                      <iframe src="https://maps.google.com/maps?q=chicago&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+                      <iframe src="https://maps.google.com/maps?q=chicago&t=&z=13&ie=UTF8&iwloc=&output=embed" 
                         style="border:0" allowfullscreen></iframe>
                     </div>
                   </div>
@@ -430,12 +438,12 @@
                       </div>
                       <div class="form-group col-md-6">
                         <label for="">Email</label>
-                        <input type="email" class="form-control" id="" placeholder="">
+                        <input type="email" class="form-control">
                       </div>
                     </div>
                     <div class="form-group">
                       <label for="inputAddress">Subject</label>
-                      <input type="text" class="form-control" id="inputAddress" placeholder="">
+                      <input type="text" class="form-control">
                     </div>
                     <div class="form-group">
                       <label for="">Message</label>
@@ -454,7 +462,8 @@
 
 
   <!--Footer section starts here-->
-          <section class="footer">
+          <section id="footer">
+            <div class="pt-5">
             <div class="container">
               <div class="row">
                 <div class="col-md-3">
@@ -497,14 +506,15 @@
                 <div class="col-md-3 ">
                   <h5>Useful links</h5>
                   <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. !</p>
-                  <div class="input-group">
-                    <input type="email" class="form-control" placeholder="Enter your email">
-                    <span class="input-grp-btn"><input type="submit" class="btn btn-primary" value="Subscribe"></span>
-                  </div>
+                  <div class="input-group mb-3">
+                    <input type="email" class="form-control" placeholder="Enter your Email" aria-describedby="button-addon2">
+                    <div class="input-group-append">
+                      <button class="btn btn-primary" type="button" id="button-addon2">Subscribe</button>
+                    </div>
                   </div>
               </div>
-              
-              
+            </div>
+            </div> 
             </div>
           </section>
   <!--Footer section ends here-->
