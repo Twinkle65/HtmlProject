@@ -85,35 +85,45 @@ p{
 .team-text h6{
     color: var(--text-color-names);
 }
-/* .profile blockquote{
-    background-color: aqua;
-}
+
+
 
 .profile{
     padding: 0px 10px 10px;
-    background-color: beige ;
+    background-color: #f5f6f8 ;
 }
 
 .profile img{
     position:absolute;
-    bottom:-60px;
-    left: calc(50%, -60%);
+    bottom:-20px;
+    left: 10%;
     border: 6px solid white;
 
 }
 
 .user{
-    width: 100px;
-    height: 100px;
+    width: 60px;
+    height: 60px;
     border-radius:50%;
 }
 
 .profile h5{
-    bottom: -40%;
+    bottom: -24%;
+    left: 10%;
     position: absolute;
+    color: var(--text-color-names);
 }
 .profile h6{
-    bottom: -50%;
-    position: absolute;;
-} */
+    bottom: -34%;
+    position: absolute;
+    left: 10%;
+}
+
+#testimonials .col-md-4{
+    margin-bottom: 5rem;
+}
+blockquote svg.svg-inline--fa{
+    color: #e8eaec;
+    margin: 0rem 0.5rem;
+  }
 
