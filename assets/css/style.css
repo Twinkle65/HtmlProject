@@ -3,8 +3,8 @@
 :root {
   --primary-color: #009ce9;
   --text-color: #5a7681; 
-  --text-color--light: #848486; 
-
+  --text-color-light: #848486; 
+    --text-color-names: #343e3f;
 }
 
 body,html{
@@ -17,6 +17,7 @@ h3{
 }
 p{
     color: var(--text-color--light);
+
 }
 
 .btn-primary{
@@ -53,20 +54,37 @@ p{
     color: var(--primary-color);
 }
 
-/*---Navigation bar Style---*/
+/*---Landing section Style---*/
 
 .landing{
     padding-top:3.5rem;
 }
 .landing h1{
-    color: #343e3f;
+    color: var(--text-color-names);
     font-weight: 700;
    
 }
 
+/*---Team section Style---*/
 
-
-
+.team-container
+{
+    position: relative;
+}
+.team-text{
+    position: absolute;
+    background-color: #fff;
+    width: 80%;
+    bottom: -10%;
+    right: 10%;
+}
+.team-text hr{
+    width: 20%;
+    border-color: var(--text-color-names);
+}
+.team-text h6{
+    color: var(--text-color-names);
+}
 /* .profile blockquote{
     background-color: aqua;
 }
