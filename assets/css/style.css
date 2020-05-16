@@ -1,42 +1,69 @@
-:root {
-        --theme-primary-color: #009ce9;
-        --theme-color-primary-text: #BEBEBE;
-        
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body,html{
+    font-family: 'Raleway', sans-serif;
+    color: #b7bfc1;
 }
 
-*
-{
-    font-family: 'Raleway', Times, serif;
-}
-.navbar-brand 
-{
-    color: var(--theme-color-primary-text);
+/*---Navigation bar Style---*/
+.navbar{
     font-weight: 600;
-    text-transform: capitalize;
-    font-size: 28px;
+    font-size: 0.9rem;
+    background-color: #fff !important;
+   
+    
 }
-header
+.navbar .navbar-brand{
+    color: #5a696c;
+}
+.navbar .navbar-brand:hover{
+    color: #5a696c;
+}
+.navbar-nav li{
+    padding: 0.5rem;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #b7bfc1;
+}
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link:hover
 {
-    padding: 10px;
-}
-
-.navbar .navbar-nav .nav-item .nav-link
-{
-    color: var(--theme-color-primary-text);
-    font-weight: 600;
-    display: block;
-    padding: 20px;    
-}
-.navbar .navbar-nav .nav-item .nav-link:hover
-{
-    color: var(--theme-primary-color);
-}
-.navbar .navbar-nav .nav-item .nav-link:active
-{
-    color: var(--theme-primary-color);
+    color: #009ce9;
 }
 
 
 
 
+/* .profile blockquote{
+    background-color: aqua;
+}
+
+.profile{
+    padding: 0px 10px 10px;
+    background-color: beige ;
+}
+
+.profile img{
+    position:absolute;
+    bottom:-60px;
+    left: calc(50%, -60%);
+    border: 6px solid white;
+
+}
+
+.user{
+    width: 100px;
+    height: 100px;
+    border-radius:50%;
+}
+
+.profile h5{
+    bottom: -40%;
+    position: absolute;
+}
+.profile h6{
+    bottom: -50%;
+    position: absolute;;
+} */
 
