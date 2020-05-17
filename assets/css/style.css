@@ -25,6 +25,7 @@ p{
     padding: 0.5rem 2rem;
     text-transform: uppercase;
     letter-spacing: 0.03rem;
+    font-weight: 500;
 }
 
 
@@ -86,7 +87,7 @@ p{
     color: var(--text-color-names);
 }
 
-
+/*---Testimonials section Style---*/
 
 .profile{
     padding: 0px 10px 10px;
@@ -125,5 +126,78 @@ p{
 blockquote svg.svg-inline--fa{
     color: #e8eaec;
     margin: 0rem 0.5rem;
+}
+
+
+/*---Services section Style---*/
+.fa-facebook{
+        color: #3B5998;
+}
+.fa-dribbble{
+    color:#ea4c89
+}
+.fa-linkedin{
+    color:#007bb5 ;
+}
+.fa-globe-asia{
+    color:#00b489;
+}
+#services h6{
+    font-weight: 700;
+    color: var(--text-color-names);
+}
+#services .card  {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.1);
+  }
+#services .service-card1:hover {
+    box-shadow: 0px 2px 0px #ea4c89;
+    
+  }
+  #services .service-card2:hover {
+    box-shadow: 0px 2px 0px #3B5998;
+    
+  }
+  #services .service-card3:hover {
+    box-shadow: 0px 2px 0px #007bb5;
+    
+  }
+  #services .service-card4:hover {
+    box-shadow: 0px 2px 0px #00b489;
+    
   }
 
+/*---Pricing section Style---*/
+#pricing li{
+    padding-bottom: 0.8rem;
+    
+}
+.pricing-card-title {
+    color: var(--primary-color);
+}
+#pricing .card small{
+    color: var(--text-color-light);
+}
+
+
+
+#pricing .card:hover, #pricing .card:hover h1{
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    
+}
+
+#pricing .card:hover button{
+    background-color: white;
+    color: #009ce9;
+    font-weight: 700;
+    border: none;
+}
+
+#pricing .card:hover small{
+    color: white;
+}  
+
+#pricing .col-md-3{
+    padding-bottom: 3rem ;
+}
