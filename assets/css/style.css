@@ -7,6 +7,7 @@
     --text-color-names: #343e3f;
 }
 
+
 body,html{
     font-family: 'Raleway', sans-serif;
     color: var(--text-color) !important;
@@ -28,6 +29,31 @@ p{
     font-weight: 500;
 }
 
+.btn-secondary{
+    background-color: var(--primary-color);
+    border: none;
+}
+
+/* Go to Top- button style */
+#myBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 2rem; 
+    right: 2rem; 
+    border: none; 
+    outline: none; 
+    background-color: var(--primary-color); 
+    color: white; 
+    padding: 0.8rem 1.2rem; 
+    z-index: 99;
+    border-radius: 0.5rem;
+    font-size: 18px; 
+
+  }
+  
+  #myBtn:hover {
+    background-color: var(--text-color-names); 
+  }
 
 /*---Navigation bar Style---*/
 .navbar{
@@ -54,6 +80,7 @@ p{
 {
     color: var(--primary-color);
 }
+  
 
 /*---Landing section Style---*/
 
@@ -200,4 +227,90 @@ blockquote svg.svg-inline--fa{
 
 #pricing .col-md-3{
     padding-bottom: 3rem ;
+}
+
+/*---Contact section Style---*/
+
+  .contact-address .icon-address .fa-map-marker-alt{
+    background: #f5f6f8;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 2rem;
+    vertical-align: middle;
+    padding: 0.6rem;
+  }
+  .contact-address .text-address {
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: middle;
+    color: var(--text-color-light);
+  } 
+  .contact-address .text-address span {
+    font-size: small;
+  }
+
+  
+
+  /*---Footer section Style---*/
+  
+    #footer p{
+        color: var(--text-color-light);
+        font-size: small;
+    }
+
+    #footer .social-media .icon {
+       
+        background: #f5f6f8;
+        width: 2rem;
+        height: 2rem;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 2rem;
+        vertical-align: middle;
+        padding: 0.6rem;
+        margin:-0.2rem; 
+        color: var(--text-color-names);
+    }
+    
+    #footer a{
+      text-decoration: none;
+      color: var(--text-color-light);
+      font-size: small;
+      padding: 0.5rem;
+      display: inline;
+  }
+  #footer .useful-links{
+    font-size: small;
+    font-weight: 400;
+  }
+  #footer .useful-links li{
+      padding: 0.5rem;
+  }
+  .fa-angle-right{
+      color: var(--primary-color);
+      font-weight: 300;
+  }
+ 
+  #footer a{
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: small;
+    padding: 0.5rem;
+    display: inline;
+}
+
+#footer .useful-links a:hover{
+    color:var(--primary-color);
+    font-weight: 600;
+}
+
+.copy-right span{
+    color: var(--primary-color);
+}
+
+
+.jumbotron{
+    border-radius: 0;
 }
